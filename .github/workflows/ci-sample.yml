@@ -24,4 +24,4 @@ jobs:
     - name: Install .NET MAUI
       run: dotnet workload install maui
     - name: Build
-      run: msbuild samples\ScreenBrightnessSample.sln -r -property:Configuration=Release
+      run: msbuild samples\Plugin.Maui.Feature.Sample.sln -r -property:Configuration=Release
