@@ -16,4 +16,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build
-      run: msbuild samples\Plugin.Maui.Feature.Sample.sln -r -property:Configuration=Release
+      run: dotnet build samples\Plugin.Maui.Feature.Sample.sln -c Release
