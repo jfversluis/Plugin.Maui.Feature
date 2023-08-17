@@ -25,4 +25,4 @@ The `Plugin.Maui.Feature` repository is a template repository that can be used t
 
 10. Enjoy life as a .NET MAUI plugin author!
 
-As an example of all of this you can have a look at x or y
+As an example of all of this you can have a look at [Plugin.Maui.ScreenBrightness](https://github.com/jfversluis/Plugin.Maui.ScreenBrightness) or [Plugin.Maui.Audio](https://github.com/jfversluis/Plugin.Maui.Audio).
