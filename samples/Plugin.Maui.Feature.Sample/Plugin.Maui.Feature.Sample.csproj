@@ -16,6 +16,7 @@
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.pluginsample</ApplicationId>
+		<ApplicationIdGuid>A20E30BB-3BF7-4ACB-89F2-596834136909</ApplicationIdGuid>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
