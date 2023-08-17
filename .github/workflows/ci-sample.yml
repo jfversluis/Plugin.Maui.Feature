@@ -15,13 +15,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v2
-      with:
-        dotnet-version: 7.0.x
-    - name: Add msbuild to PATH
-      uses: microsoft/setup-msbuild@v1.1
-    - name: Install .NET MAUI
-      run: dotnet workload install maui
     - name: Build
       run: msbuild samples\Plugin.Maui.Feature.Sample.sln -r -property:Configuration=Release
