@@ -4,7 +4,7 @@ The `Plugin.Maui.Feature` repository is a template repository that can be used t
 
 This template contains:
 
-- A [sample .NET MAUI app](src) where you can demonstrate how your plugin works and test your plugin with while developing
+- A [sample .NET MAUI app](samples) where you can demonstrate how your plugin works and test your plugin with while developing
 - The [source](src) of the plugin
 - A boilerplate [README file](README_Feature.md) you can use (don't forget to rename to `README.md` and remove this one!)
 - [GitHub Actions for CI](.github/workflows) of the library and the sample app
