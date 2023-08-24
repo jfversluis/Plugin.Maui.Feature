@@ -2,13 +2,18 @@
 Everything in here is of course optional. If you want to add/remove something, absolutely do so as you see fit.
 This example README has some dummy APIs you'll need to replace and only acts as a placeholder for some inspiration that you can fill in with your own functionalities.
 -->
+![](nuget.png)
 # Plugin.Maui.Feature
 
 `Plugin.Maui.Feature` provides the ability to do this amazing thing in your .NET MAUI application.
 
-## Getting Started
+## Install Plugin
 
-* Available on NuGet: <http://www.nuget.org/packages/Plugin.Maui.Feature> [![NuGet](https://img.shields.io/nuget/v/Plugin.Maui.Feature.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Maui.Feature/)
+[![NuGet](https://img.shields.io/nuget/v/Plugin.Maui.Feature.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Maui.Feature/)
+
+Available on [NuGet](http://www.nuget.org/packages/Plugin.Maui.Feature).
+
+Install with the dotnet CLI: `dotnet add package Plugin.Maui.Feature`, or through the NuGet Package Manager in Visual Studio.
 
 ## API Usage
 
