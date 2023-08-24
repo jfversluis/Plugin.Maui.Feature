@@ -2,6 +2,8 @@
 
 The `Plugin.Maui.Feature` repository is a template repository that can be used to bootstrap your own .NET MAUI plugin project. You can use this project structure as a blueprint for your own work.
 
+Learn how to get started with your plugin in this [YouTube video](https://www.youtube.com/watch?v=ZCQrlGT7MhI&list=PLfbOp004UaYVgzmTBNVI0ql2qF0LhSEU1&index=27).
+
 This template contains:
 
 - A [sample .NET MAUI app](samples) where you can demonstrate how your plugin works and test your plugin with while developing
