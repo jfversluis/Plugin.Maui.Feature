@@ -15,6 +15,15 @@ Available on [NuGet](http://www.nuget.org/packages/Plugin.Maui.Feature).
 
 Install with the dotnet CLI: `dotnet add package Plugin.Maui.Feature`, or through the NuGet Package Manager in Visual Studio.
 
+### Supported Platforms
+
+| Platform | Minimum Version Supported |
+|----------|---------------------------|
+| iOS      | 11+                       |
+| macOS    | 10.15+                    |
+| Android  | 5.0 (API 21)              |
+| Windows  | 11 and 10 version 1809+   |
+
 ## API Usage
 
 `Plugin.Maui.Feature` provides the `Feature` class that has a single property `Property` that you can get or set.
