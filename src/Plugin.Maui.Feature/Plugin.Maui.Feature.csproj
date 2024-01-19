@@ -76,6 +76,7 @@
 	<!-- Package additions -->
 	<ItemGroup>
 		<None Include="..\..\nuget.png" PackagePath="icon.png" Pack="true" />
+		<PackageReference Include="Microsoft.Maui.Essentials" Version="$(MauiVersion)" />
 	</ItemGroup>
 
 </Project>
