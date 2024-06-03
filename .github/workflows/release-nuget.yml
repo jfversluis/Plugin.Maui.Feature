@@ -18,7 +18,9 @@ jobs:
           git branch --remote --contains | grep origin/main
       - name: Get version information from tag
         id: get_version
-        uses: battila7/get-version-action@v2
+        run: |
+          $version="${{github.ref_name}}".TrimStart("v")
+          "version-without-v=$version" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
       - name: Pack
         run: dotnet pack src\Plugin.Maui.Feature.sln -c Release -p:PackageVersion=${{ steps.get_version.outputs.version-without-v }}
       - name: Push
