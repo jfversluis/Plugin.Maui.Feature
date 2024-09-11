@@ -3,7 +3,7 @@ Everything in here is of course optional. If you want to add/remove something, a
 This example README has some dummy APIs you'll need to replace and only acts as a placeholder for some inspiration that you can fill in with your own functionalities.
 -->
 <!-- 
-NuGet.org allows only images from certain domains. Complete list is here: https://learn.microsoft.com/en-us/nuget/nuget-org/package-readme-on-nuget-org#allowed-domains-for-images-and-badges.
+NuGet.org allows only images from certain domains. Complete list is here: https://learn.microsoft.com/nuget/nuget-org/package-readme-on-nuget-org#allowed-domains-for-images-and-badges.
 In case of GitHub there is required a raw URI of icon file - direct link to github.com domain is not permitted.
 (Tip: to obtain raw URI, open the .png image file on GitHub page, click right mouse button on image and then select 'Open image in new tab')
 -->
