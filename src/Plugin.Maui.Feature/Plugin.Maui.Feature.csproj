@@ -81,4 +81,27 @@
 		<None Include="..\..\README.md" Pack="true" PackagePath="\"/>
 	</ItemGroup>
 
+	<!-- If your project include submodule dependency uncomment below and fill up with proper names and paths. 
+	     Be careful with ProjectReference property as it might have been already added automatically by your IDE after adding a dependency to this project.
+
+	     Explanation: to make things working, you have to "hide" the submodule references and explicitly copy compilation output (binaries) to NuGet package.
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\dependencies\Submodule.Solution.Name\src\Submodule.Solution.Name\Submodule.Solution.Name.csproj" PrivateAssets="All" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\..\dependencies\Plugin.Maui.Audio\src\Submodule.Solution.Name\bin\$(Configuration)\net8.0-android\*.*"
+              	      Pack="true"
+              	      PackagePath="lib/net8.0-android34.0/" />
+		<None Include="..\..\dependencies\Plugin.Maui.Audio\src\Submodule.Solution.Name\bin\$(Configuration)\net8.0-ios\*.*"
+              	      Pack="true"
+              	      PackagePath="lib/net8.0-ios17.5/" />
+		<None Include="..\..\dependencies\Plugin.Maui.Audio\src\Submodule.Solution.Name\bin\$(Configuration)\net8.0-maccatalyst\*.*"
+              	      Pack="true"
+              	      PackagePath="lib/net8.0-maccatalyst17.5/" />
+		<None Include="..\..\dependencies\Plugin.Maui.Audio\src\Submodule.Solution.Name\bin\$(Configuration)\net8.0-windows10.0.19041.0\*.*"
+              	      Pack="true"
+              	      PackagePath="lib/net8.0-windows10.0.19041/" />
+	</ItemGroup> -->
 </Project>
