@@ -14,17 +14,25 @@ jobs:
       - uses: actions/checkout@v4
         with:
           submodules: true 
+          
       - name: Verify commit exists in origin/main
         run: |
           git fetch --no-tags --prune --depth=1 origin +refs/heads/*:refs/remotes/origin/*
           git branch --remote --contains | grep origin/main
+          
       - name: Get version information from tag
         id: get_version
         run: |
           $version="${{github.ref_name}}".TrimStart("v")
           "version-without-v=$version" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+          
+     # If your project contains submodule uncomment below and fill with proper name an path
+     # - name: Build dependencies
+     #   run: dotnet build dependencies\Submodule.Solution.Name\src\Submodule.Solution.Name.sln -c Release
+        
       - name: Pack
         run: dotnet pack src\Plugin.Maui.Feature.sln -c Release -p:PackageVersion=${{ steps.get_version.outputs.version-without-v }}
+        
       - name: Push
         run: dotnet nuget push src\Plugin.Maui.Feature\bin\Release\Plugin.Maui.Feature.${{ steps.get_version.outputs.version-without-v }}.nupkg -s https://api.nuget.org/v3/index.json -k ${{ secrets.NUGET_API_KEY }}
         env:
