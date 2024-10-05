@@ -15,5 +15,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+      with:
+        submodules: true 
     - name: Build
       run: dotnet build src\Plugin.Maui.Feature.sln -c Release
