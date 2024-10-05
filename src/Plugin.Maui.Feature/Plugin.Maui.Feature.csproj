@@ -91,16 +91,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<None Include="..\..\dependencies\Plugin.Maui.Audio\src\Submodule.Solution.Name\bin\$(Configuration)\net8.0-android\*.*"
+		<None Include="..\..\dependencies\Submodule.Solution.Name\src\Submodule.Solution.Name\bin\$(Configuration)\net8.0-android\*.*"
               	      Pack="true"
               	      PackagePath="lib/net8.0-android34.0/" />
-		<None Include="..\..\dependencies\Plugin.Maui.Audio\src\Submodule.Solution.Name\bin\$(Configuration)\net8.0-ios\*.*"
+		<None Include="..\..\dependencies\Submodule.Solution.Name\src\Submodule.Solution.Name\bin\$(Configuration)\net8.0-ios\*.*"
               	      Pack="true"
               	      PackagePath="lib/net8.0-ios17.5/" />
-		<None Include="..\..\dependencies\Plugin.Maui.Audio\src\Submodule.Solution.Name\bin\$(Configuration)\net8.0-maccatalyst\*.*"
+		<None Include="..\..\dependencies\Submodule.Solution.Name\src\Submodule.Solution.Name\bin\$(Configuration)\net8.0-maccatalyst\*.*"
               	      Pack="true"
               	      PackagePath="lib/net8.0-maccatalyst17.5/" />
-		<None Include="..\..\dependencies\Plugin.Maui.Audio\src\Submodule.Solution.Name\bin\$(Configuration)\net8.0-windows10.0.19041.0\*.*"
+		<None Include="..\..\dependencies\Submodule.Solution.Name\src\Submodule.Solution.Name\bin\$(Configuration)\net8.0-windows10.0.19041.0\*.*"
               	      Pack="true"
               	      PackagePath="lib/net8.0-windows10.0.19041/" />
 	</ItemGroup> -->
