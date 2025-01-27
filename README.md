@@ -12,7 +12,6 @@ This template contains:
 - [GitHub Actions for CI](.github/workflows) of the library and the sample app
 - [GitHub Action for releasing](.github/workflows) your package to NuGet
 - A [generic icon](nuget.png) for your project, feel free to adapt and be creative!
-- A [.editorconfig](.editorconfig) file to standardize the code syntax. Feel free to adapt or remove.
 - The [LICENSE](LICENSE) file with the MIT license. If you want this to be different, please change it. At the very least add your name in there!
 
 ## Getting Started
