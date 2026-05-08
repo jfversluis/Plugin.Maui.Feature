@@ -1,15 +1,15 @@
-# $ Copilot InstructionsREPO 
+# Plugin.Maui.Feature - Copilot Instructions
 
 ## Project Overview
 
-This is a .NET MAUI plugin that is a template repository for bootstrapping new .NET MAUI plugins. It targets Android, iOS, macOS (Catalyst), Windows.
+This is a template repository for bootstrapping new .NET MAUI plugins. It targets Android, iOS, macOS (Catalyst), and Windows.
 
-### Architecture
+## Architecture
 
-**Template  clone and rename to create a new plugin.repo** 
+**Template repo** - clone and rename to create a new plugin.
 
-Standard structure with IFeature interface, static facade, platform stubs.
-Find/replace 'Feature' with your plugin name to get started.
+Standard structure with `IFeature` interface, static facade, and platform stubs.
+Find/replace `Feature` with your plugin name to get started.
 
 ## Code Conventions
 
@@ -17,11 +17,11 @@ Find/replace 'Feature' with your plugin name to get started.
 All code uses: `Plugin.Maui.Feature`
 
 ### File Naming
-- `*.shared. Cross-platform codecs` 
-- `*.android. Androidcs` 
-- `*.macios. iOS/macOScs` 
-- `*.windows. Windowscs` 
-- `*.net. Generic .NET fallbackcs` 
+- `*.shared.cs` - Cross-platform code
+- `*.android.cs` - Android-specific code
+- `*.macios.cs` - iOS/macOS-specific code
+- `*.windows.cs` - Windows-specific code
+- `*.net.cs` - Generic .NET fallback
 
 ### Standards
 - File-scoped namespaces
